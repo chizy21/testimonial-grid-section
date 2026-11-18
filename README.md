@@ -15,8 +15,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://github.com/chizy21/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://gleeful-scone-e24abf.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/chizy21/testimonial-grid-section)
+- Live Site URL: [Add live site URL here](https://testimonialgridsectionfrontendmentor.netlify.app/)
 
 ## My process
 
