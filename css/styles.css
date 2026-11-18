@@ -1,0 +1,97 @@
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: white;
+  color: black;
+}
+
+.item1 {
+  grid-area: card1;
+}
+.item2 {
+  grid-area: card2;
+}
+.item3 {
+  grid-area: card3;
+}
+.item4 {
+  grid-area: card4;
+}
+.item5 {
+  grid-area: card5;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-areas:
+    "card1 card1 card2 card5"
+    "card3 card4 card4 card5";
+  gap: 25px;
+}
+
+.item1 {
+  background-color: #733fc8;
+  color: white;
+}
+
+.item1 blockquote {
+  color: #cfcfcf;
+}
+
+.item2 {
+  background-color: #48556a;
+  color: white;
+}
+
+.item4 {
+  background-color: #19202d;
+  color: white;
+}
+.item5 {
+  background-color: #ffffff;
+  color: #48556a;
+}
+
+.item1,
+p blockquote,
+.item2,
+p blockquote,
+.item3,
+p blockquote,
+.item4,
+p blockquote,
+.item5,
+p blockquote {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  width: 50px; /* or any desired width */
+  height: 50px; /* or any desired height */
+  object-fit: cover; /* ensures the image covers the entire area without distortion */
+  padding: 10px; /* or any desired padding */
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
